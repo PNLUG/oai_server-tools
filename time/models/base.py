@@ -2,7 +2,7 @@ from odoo import models
 import pytz
 
 
-class Website(models.Model):
+class BaseTime(models.AbstractModel):
     # _todo_ si può estendere Base che è più generico?
     _inherit = "base"
 
